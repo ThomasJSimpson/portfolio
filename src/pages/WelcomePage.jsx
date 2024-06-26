@@ -1,9 +1,6 @@
 import Projects from "../components/Projects.jsx";
 import About from "../components/About.jsx";
-// import ProjectList from "./ProjectsList.jsx";
-// import gitHubIcon from "./assets/github.png";
-// import linkedInIcon from "./assets/linkedin.png";
-// import emailIcon from "./assets/mail.png";
+import LinkPro from "../components/links/LinkPro.jsx";
 
 const WelcomePage = () => {
   return (
@@ -28,21 +25,12 @@ const WelcomePage = () => {
           🚀 Spécialisé Front-end ( Javascript / React )
           <br />⚡ À la recherche d&apos;un contrat en Alternance, en vue d&apos;une formation FullStack chez la WildCodeSchool.
         </p>
-        {/* <div className="welcome-social">
-            <button>
-              <img src={gitHubIcon} alt="GitHub Icon" />
-              GitHub
-            </button>
-
-            <button>
-              <img src={linkedInIcon} alt="linkedIn icon" />
-              LinkedIn
-            </button>
-            <button>
-              <img src={emailIcon} alt="email icon" />
-              Email
-            </button>
-          </div> */}
+        <div className="welcome-social">
+          <LinkPro type="github" />
+          <LinkPro type="linkedin" />
+          <LinkPro type="mail" />
+          <LinkPro type="resume" />
+        </div>
       </section>
       <About />
       <Projects />

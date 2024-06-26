@@ -1,4 +1,4 @@
-import educationIcon from "../assets/icones/education.png";
+import educationIcon from "../assets/icones/education-white.png";
 
 const ProjectType = ({ type }) => {
   return (

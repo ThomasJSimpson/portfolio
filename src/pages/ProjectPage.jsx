@@ -3,7 +3,7 @@ import ProjectChapter from "../components/ProjectChapter.jsx";
 import Tag from "../components/Tag.jsx";
 import ProjectType from "../components/ProjectType.jsx";
 import { useParams } from "react-router-dom";
-import LinkPerso from "../components/links/LinkPerso.jsx";
+import LinkProject from "../components/links/LinkProject.jsx";
 const ProjectPage = () => {
   console.log(projects);
   const { projectId } = useParams();
@@ -28,8 +28,8 @@ const ProjectPage = () => {
                   </div>
 
                   <div className="links">
-                    <LinkPerso type={"github"} links={links} />
-                    <LinkPerso type={"demo"} links={links} />
+                    <LinkProject type={"github"} links={links} />
+                    <LinkProject type={"demo"} links={links} />
                   </div>
                   <ProjectType type={type} />
                 </div>

@@ -1,6 +1,6 @@
-function Contact() {
-  const email = "berenger.thomas@gmail.com";
+import LinkPro from "../components/links/LinkPro.jsx";
 
+function Contact() {
   return (
     <section className="contact" id="contact">
       <h1>Contactez-moi.</h1>
@@ -9,11 +9,13 @@ function Contact() {
         <br />
         Je vous invite à entrer en contact afin de discuter ensemble à propos d&apos; un éventuel projet.
       </p>
-      <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">
-        <button> Contactez moi</button>
-      </a>
+      <div className="contact-social">
+        <LinkPro type="linkedin" />
+        <LinkPro type="mail" />
+        <LinkPro type="resume" />
+      </div>
     </section>
   );
 }
-
+// https://drive.google.com/file/d/1rGj6IImAz5KWKPPJoTw4h89QS2_juWPK/view?usp=sharing
 export default Contact;

@@ -57,7 +57,7 @@ const projects = [
     screenshot: argentBankCapture,
     links: {
       GitHub: "https://github.com/ThomasJSimpson/ArgentBank",
-      Demo: "https://thomasjsimpson.github.io/ArgentBank/",
+      // Demo: "https://thomasjsimpson.github.io/ArgentBank/",
     },
     projectDescription: {
       "Objectifs du projet": "Ma mission est de développer une application bancaire en utilisant React et Redux, en intégrant le front-end avec le back-end via des appels API, et en assurant une expérience utilisateur fluide et réactive.",
@@ -77,7 +77,7 @@ const projects = [
     screenshot: hrnetCapture,
     links: {
       GitHub: "https://github.com/ThomasJSimpson/HRnet",
-      Demo: "https://thomasjsimpson.github.io/HRnet/",
+      Demo: "https://hrnetbythomasjb.netlify.app/",
     },
     projectDescription: {
       "Objectifs du projet": "Ma mission est de convertir des plugins jQuery en composants React, de mesurer les performances avant et après la conversion, et de documenter le processus de conversion et les résultats.",

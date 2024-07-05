@@ -346,20 +346,18 @@ main {
   margin-bottom: 10rem;
   /* height: 22.5rem; */
   text-align: center;
+  color: #8f9094;
 }
 .contact h1 {
   font-size: 48px;
   margin-bottom: 3rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  color: white;
 }
-.contact p {
-  /* margin-bottom: 5rem; */
-  color: #8f9094;
-}
+
 .contact-social {
   display: flex;
-
   margin-top: 4rem;
 }
 footer {

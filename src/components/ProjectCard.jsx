@@ -3,12 +3,12 @@ import Tag from "./Tag";
 
 const ProjectCard = ({ name, description, tags, screenshotSrc, id }) => {
   return (
-    <Link to={`/project/${id}`} style={{ textDecoration: "none" }}>
+    <Link to={`/project/${id}`} className="project-card--link">
       <div className="project-card" key={name}>
         <div className="project-card--img">
           <img src={screenshotSrc} alt="Project" />
         </div>
-        <div className="project-card--desc">
+        <div className="project-card--desc ">
           <h3 className="ellipsis">{name}</h3>
           <div className="tags-list">
             {tags.map((tag) => (

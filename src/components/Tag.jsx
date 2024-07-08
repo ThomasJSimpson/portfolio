@@ -1,6 +1,6 @@
 const Tag = ({ tag }) => {
   return (
-    <div className="tag" key={tag}>
+    <div className="tag ellipsis" key={tag}>
       <p>{tag}</p>
     </div>
   );

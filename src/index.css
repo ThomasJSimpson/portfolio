@@ -8,8 +8,6 @@ html {
 }
 
 body {
-  background-color: #fff;
-  color: #000;
   font-family: "Century Gothic", helvetica, arial, sans-serif;
   font-size: 1.4em; /* equiv 14px */
   line-height: 1.5; /* adapt to your design */
@@ -291,4 +289,13 @@ table {
 td,
 th {
   padding: 0;
+}
+@media (max-width: 1000) {
+  /* .projects-list {
+    display: flex;
+    flex-direction: column;
+  } */
+  body {
+    background-color: red;
+  }
 }

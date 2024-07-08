@@ -26,10 +26,9 @@ const ProjectPage = () => {
                       <Tag key={tag} tag={tag} />
                     ))}
                   </div>
-
                   <div className="links">
-                    <LinkProject type={"github"} links={links} />
-                    <LinkProject type={"demo"} links={links} />
+                    {links.GitHub ? <LinkProject type={"github"} links={links} /> : null}
+                    {links.Demo ? <LinkProject type={"demo"} links={links} /> : null}
                   </div>
                   <ProjectType type={type} />
                 </div>

@@ -4,7 +4,7 @@ import mailIcon from "../../assets/icones/mail-green.png";
 import resumeIcon from "../../assets/icones/resume-green.png";
 import { Link } from "react-router-dom";
 
-const LinkPro = ({ type }) => {
+const LinkPro = ({ type, className }) => {
   const linkedinProfil = "https://www.linkedin.com/in/thomas-berenger-mtp/";
   const gitHubProfil = "https://github.com/ThomasJSimpson";
   const mailPrivate = "berenger.thomas@gmail.com";
@@ -37,7 +37,7 @@ const LinkPro = ({ type }) => {
       break;
   }
   return (
-    <Link to={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+    <Link to={link} className={className} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
       <div className="link-pro">
         <img className="icon" src={icon} />
         <p>{text}</p>

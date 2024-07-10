@@ -25,6 +25,20 @@ a:visited {
   color: inherit;
   text-decoration: none;
 }
+@keyframes anim-header {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .ellipsis {
   white-space: nowrap; /* Empêche le texte de passer à la ligne */
   overflow: hidden; /* Cache le texte qui déborde */
@@ -32,20 +46,7 @@ a:visited {
   width: 20rem; /* Spécifiez la largeur du conteneur selon vos besoins */
   display: block; /* Assure que l'élément est un bloc pour que width fonctionne correctement */
 }
-/* .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 12vh;
-  max-width: 1440px;
-  background-color: black;
-  padding: 3rem 5rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  border-bottom: solid 1px #8f9094;
-} */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -58,6 +59,7 @@ a:visited {
   top: 0;
   z-index: 1000;
   border-bottom: solid 1px #8f9094;
+  animation: anim-header 0.5s ease-in-out;
 }
 .header h1 {
   font-size: 3.2rem;
@@ -96,12 +98,34 @@ main {
   padding-top: 20vh;
   /* border-bottom: solid 1px white; */
 }
-
+@keyframes anim-welcome {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.anim-welcome {
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-name: anim-welcome;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
 .welcome-hello {
   /* font-size: 35px; */
+  display: inline-block;
   font-size: 3rem;
   color: #3ccf91;
+  animation-delay: 0.4s;
 }
+
 .welcome-name {
   display: inline-block;
   margin-bottom: 2rem;
@@ -110,13 +134,19 @@ main {
   font-weight: 700;
   line-height: 1;
 }
-
+.welcome-name--first {
+  animation-delay: 0.6s;
+}
+.welcome-name--last {
+  animation-delay: 0.8s;
+}
 .welcome-title {
   font-size: 3rem;
+  animation-delay: 1s;
 }
 .welcome-title--description {
   color: #8f9094;
-
+  animation-delay: 1s;
   font-size: 3rem;
 }
 .welcome-profil {
@@ -127,10 +157,44 @@ main {
   font-size: 2rem;
   color: #8f9094;
   font-weight: lighter;
+  animation-delay: 1.2s;
+}
+@keyframes anim-welcome--social {
+  0% {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.anim-welcome--social {
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-name: anim-welcome--social;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+.anim-social-1 {
+  animation-delay: 1.4s;
+}
+.anim-social-2 {
+  animation-delay: 1.5s;
+}
+.anim-social-3 {
+  animation-delay: 1.6s;
+}
+.anim-social-4 {
+  animation-delay: 1.7s;
 }
 .welcome-social {
   display: flex;
   margin-top: 4rem;
+  animation-delay: 1.4s;
 }
 
 .about {
@@ -278,6 +342,7 @@ main {
 .tags-list {
   display: flex;
   flex-flow: nowrap;
+  /* margin-bottom: 2rem; */
 }
 
 .tags-list > * {
@@ -323,12 +388,13 @@ main {
 .project-page--title h1 {
   font-size: 3.2rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
   color: white;
+  line-height: 1.3;
 }
 .project-page--title__desc {
   font-size: 1.6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .project-page--tags {
   display: flex;
@@ -345,7 +411,7 @@ main {
 }
 .links {
   display: flex;
-  margin-bottom: 1rem;
+  margin: 1.7rem 0 1rem;
 }
 .icon {
   width: 2rem;

@@ -1,6 +1,7 @@
 import Projects from "../components/Projects.jsx";
 import About from "../components/About.jsx";
 import LinkPro from "../components/links/LinkPro.jsx";
+import { useEffect } from "react";
 
 const WelcomePage = () => {
   return (

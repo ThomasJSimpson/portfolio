@@ -100,10 +100,10 @@ main {
 }
 @keyframes anim-welcome {
   0% {
-    transform: translateY(-30px);
+    transform: translateY(-40px);
     opacity: 0;
   }
-  30% {
+  20% {
     opacity: 0;
   }
   100% {
@@ -118,8 +118,27 @@ main {
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
 }
+@keyframes anim-welcome--social {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.anim-welcome--social {
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-name: anim-welcome--social;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
 .welcome-hello {
-  /* font-size: 35px; */
   display: inline-block;
   font-size: 3rem;
   color: #3ccf91;
@@ -129,7 +148,6 @@ main {
 .welcome-name {
   display: inline-block;
   margin-bottom: 2rem;
-  /* font-size: 120px; */
   font-size: 12.5rem;
   font-weight: 700;
   line-height: 1;
@@ -159,37 +177,18 @@ main {
   font-weight: lighter;
   animation-delay: 1.2s;
 }
-@keyframes anim-welcome--social {
-  0% {
-    transform: translateX(40px);
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-.anim-welcome--social {
-  opacity: 0;
-  animation-duration: 0.5s;
-  animation-name: anim-welcome--social;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-}
+
 .anim-social-1 {
-  animation-delay: 1.4s;
-}
-.anim-social-2 {
   animation-delay: 1.5s;
 }
-.anim-social-3 {
+.anim-social-2 {
   animation-delay: 1.6s;
 }
-.anim-social-4 {
+.anim-social-3 {
   animation-delay: 1.7s;
+}
+.anim-social-4 {
+  animation-delay: 1.8s;
 }
 .welcome-social {
   display: flex;

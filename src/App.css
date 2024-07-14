@@ -53,6 +53,7 @@ a:visited {
   justify-content: space-between;
   align-items: center;
   height: 12vh;
+  min-height: 8rem;
   max-width: 144rem;
   background-color: black;
   padding: 0 5rem 0;
@@ -79,7 +80,7 @@ nav ul {
 } */
 nav {
   width: 30rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 
@@ -141,7 +142,7 @@ main {
 }
 .welcome-hello {
   display: inline-block;
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: #3ccf91;
   animation-delay: 0.4s;
 }
@@ -149,7 +150,7 @@ main {
 .welcome-name {
   display: inline-block;
   margin-bottom: 2rem;
-  font-size: 12.5rem;
+  font-size: 10rem;
   font-weight: 700;
   line-height: 1;
 }
@@ -160,20 +161,20 @@ main {
   animation-delay: 0.8s;
 }
 .welcome-title {
-  font-size: 3rem;
+  font-size: 2.6rem;
   animation-delay: 1s;
 }
 .welcome-title--description {
   color: #8f9094;
   animation-delay: 1s;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 .welcome-profil {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   margin-top: 15vh;
 }
 .welcome-spec {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #8f9094;
   font-weight: lighter;
   animation-delay: 1.2s;
@@ -549,6 +550,30 @@ footer {
   .project-card h3 {
     font-size: 2.2rem;
   }
+  .welcome-hello {
+    font-size: 3.3rem;
+  }
+  .welcome-name {
+    margin-bottom: 0.9rem;
+    font-size: 8.5rem;
+  }
+  .welcome-title {
+    font-size: 3.1rem;
+  }
+  .welcome-title--description {
+    font-size: 3.1rem;
+  }
+  .welcome-profil {
+    margin-bottom: 2.8rem;
+    margin-top: 15vh;
+  }
+  .welcome-spec {
+    font-size: 2.4rem;
+  }
+  .welcome-social {
+    margin-top: 2.4rem;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 819px) {
   .project-card--desc {
@@ -590,7 +615,7 @@ footer {
     font-size: 90%;
   } */
 }
-@media (max-width: 579px) {
+@media (max-width: 799px) {
   .project-card--desc {
     font-size: 80%;
     padding: 3.5%;
@@ -604,8 +629,6 @@ footer {
   .project-card h3 {
     font-size: 80%;
   } */
-}
-@media (max-width: 700px) {
   body {
     padding: 0;
   }
@@ -686,6 +709,7 @@ footer {
   .tags-list {
     font-size: 1.1rem;
     margin-bottom: 1rem;
+    translate: no;
   }
   .tags-list > * {
     margin-right: 0.7rem;
@@ -698,6 +722,7 @@ footer {
   }
   .link-pro p {
     font-size: 1.4rem;
+    translate: no;
   }
   .icon {
     width: 2.2rem;
@@ -710,4 +735,6 @@ footer {
   .project-card--desc > p {
     font-size: 1.1rem;
   }
+}
+@media (max-width: 539px) {
 }

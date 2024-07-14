@@ -11,8 +11,8 @@ const WelcomePage = () => {
           <span className="welcome-hello anim-welcome">Bonjour! Je suis-</span>
           <br />{" "}
           <span className="welcome-name ">
-            <span className=" welcome-name--first anim-welcome">Thomas</span>
-            <br />
+            <span className=" welcome-name--first anim-welcome">Thomas </span>
+
             <span className="welcome-name--last anim-welcome">Bérenger.</span>
           </span>
           <br />

@@ -374,11 +374,13 @@ main {
   display: flex;
   flex-direction: column;
   padding-bottom: 1rem;
-  border-bottom: solid 1px white;
 }
 .project-page--img {
-  width: 110rem;
-  height: 60rem;
+  /* width: 110rem;
+  height: 60rem; */
+  width: 100%;
+
+  aspect-ratio: 11 / 6;
   overflow: hidden;
   border-radius: 3rem;
   margin-bottom: 2rem;
@@ -391,6 +393,9 @@ main {
 }
 .project-page--title {
   color: #8f9094;
+  padding-bottom: 2rem;
+  /* border-bottom: solid 1px white; */
+  border-bottom: solid 1px rgba(143, 144, 148, 0.5);
 }
 .project-page--title h1 {
   font-size: 3.2rem;
@@ -755,6 +760,16 @@ footer {
   }
   .about-descr h1 {
     font-size: 2rem;
+  }
+  .project-page--img {
+    border-radius: 0;
+  }
+
+  .project-page--title {
+    padding: 0 2rem 1rem;
+  }
+  .project-page--description {
+    padding: 0 2rem;
   }
 }
 @media (max-width: 639px) {

@@ -34,7 +34,7 @@ const WelcomePage = () => {
           <LinkPro className="anim-social-4 anim-welcome--social" type="resume" />
         </div>
       </section>
-      <About />
+      {/* <About /> */}
       <Projects />
     </>
   );

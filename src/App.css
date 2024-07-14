@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 144rem;
+  min-width: 37.5rem;
   padding: 0 2.3%;
   min-height: 100vh;
   margin: 0 auto;
@@ -611,6 +612,55 @@ footer {
   main {
     padding: 0;
   }
+  .header {
+    padding: 0 2rem 0;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+  nav {
+    width: 48%;
+    font-size: 0.8rem;
+  }
+
+  .welcome {
+    padding: 20vh 2rem 0;
+  }
+  .welcome-hello {
+    font-size: 1rem;
+  }
+  .welcome-name {
+    margin-bottom: 0.3rem;
+    font-size: 4rem;
+  }
+  .welcome-title {
+    font-size: 1.1rem;
+  }
+  .welcome-title--description {
+    font-size: 1.1rem;
+  }
+  .welcome-profil {
+    margin-bottom: 1.8rem;
+    margin-top: 15vh;
+  }
+  .welcome-spec {
+    font-size: 0.9rem;
+  }
+  .welcome-social {
+    margin-top: 2.4rem;
+  }
+  .link-pro {
+    margin-right: 0.8rem;
+    padding: 0.6rem 0.9rem;
+  }
+  .link-pro p {
+    font-size: 0.8rem;
+  }
+  .icon {
+    width: 1.2rem;
+    height: auto;
+    margin-right: 1rem;
+  }
   .projects {
     padding: 2.5rem 0;
   }
@@ -637,22 +687,23 @@ footer {
     transform: scale(1);
     transition: none;
   }
-  .project-card h3 {
+  .project-card--desc h3 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
 
   .tags-list {
     font-size: 0.9rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .tags-list > * {
+    margin-right: 0.7rem;
+    /* margin-bottom: 1.5rem; */
+  }
+  .project-card--desc {
+    justify-content: center;
   }
   .project-card--desc > p {
     font-size: 1rem;
   }
-  /* .project-card--desc {
-    font-size: 80%;
-  }
-  .project-card h3 {
-    font-size: 80%;
-  } */
 }

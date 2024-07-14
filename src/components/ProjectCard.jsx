@@ -15,9 +15,7 @@ const ProjectCard = ({ name, description, tags, screenshotSrc, id }) => {
               <Tag key={tag} tag={tag} />
             ))}
           </div>
-          <div>
-            <p className="ellipsis">{description}</p>
-          </div>
+          <p className="ellipsis">{description}</p>
         </div>
       </div>
     </Link>

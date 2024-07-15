@@ -471,6 +471,11 @@ main {
 .link-pro p {
   color: white;
 }
+.link-pro img {
+  margin-right: 1rem;
+  width: 2.2rem;
+  height: auto;
+}
 .project-chapter {
   margin-bottom: 5rem;
   color: white;
@@ -831,6 +836,16 @@ footer {
 
   .project-page--description {
     font-size: 1.4rem;
+  }
+  .project-page--title .tags-list {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .project-page--title .tags-list > * {
+    margin-bottom: 1rem;
+  }
+  .links {
+    margin: 0 0 0.8rem;
   }
   .project-chapter--title {
     font-size: 2rem;

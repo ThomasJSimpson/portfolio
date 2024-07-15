@@ -73,6 +73,7 @@ const NavMenu = ({ type, isHomePage }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       scrollToSectionWithOffset("about", 12);
+                      setIsMenuOpen(false);
                     }}
                   >
                     À propos de moi
@@ -84,6 +85,7 @@ const NavMenu = ({ type, isHomePage }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       scrollToSectionWithOffset("projects", 12);
+                      setIsMenuOpen(false);
                     }}
                   >
                     Projets
@@ -95,6 +97,7 @@ const NavMenu = ({ type, isHomePage }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       scrollToSectionWithOffset("contact", 12);
+                      setIsMenuOpen(false);
                     }}
                   >
                     Contact

@@ -651,7 +651,7 @@ footer {
 }
 @media (max-width: 799px) {
   .menu-back img {
-    width: 4rem;
+    width: 3.5rem;
   }
   .menu-desktop {
     display: none;

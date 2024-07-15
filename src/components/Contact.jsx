@@ -7,7 +7,7 @@ function Contact() {
       <p>
         Je suis actuellement spécialisé en développement Front-end.
         <br />
-        Je vous invite à entrer en contact afin de discuter ensemble à propos d&apos; un éventuel projet.
+        Je vous invite à entrer en contact afin de discuter ensemble à propos d&apos;un éventuel projet.
       </p>
       <div className="contact-social">
         <LinkPro type="linkedin" />

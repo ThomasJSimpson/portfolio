@@ -39,7 +39,7 @@ const LinkPro = ({ type, className }) => {
   return (
     <Link to={link} className={className} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
       <div className="link-pro">
-        <img className="icon" src={icon} />
+        <img src={icon} />
         <p>{text}</p>
       </div>
     </Link>

@@ -12,17 +12,17 @@ const WelcomePage = () => {
           <span className="welcome-name ">
             <span className=" welcome-name--first anim-welcome">Thomas </span>
 
-            <span className="welcome-name--last anim-welcome">Bérenger.</span>
+            <span className="welcome-name--last anim-welcome no-break">Bérenger.</span>
           </span>
           <br />
           <span className="welcome-title anim-welcome">Développeur Web.</span>{" "}
-          <span className="welcome-title--description anim-welcome">
+          <span className="welcome-title--description anim-welcome no-break">
             Autodidacte,
             <br />
             passioné de nouvelles technologies.
           </span>
         </p>
-        <p className="welcome-spec anim-welcome">
+        <p className="welcome-spec anim-welcome no-break">
           🚀 Spécialisé Front-end ( Javascript / React )
           <br />⚡ À la recherche d&apos;un contrat en Alternance, en vue d&apos;une formation FullStack chez la WildCodeSchool.
         </p>

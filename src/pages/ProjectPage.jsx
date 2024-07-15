@@ -18,9 +18,9 @@ const ProjectPage = () => {
                 <div className="project-page--img">
                   <img src={screenshot} alt="Project" />
                 </div>
-                <div className="project-page--title">
+                <div className="project-page--title no-break">
                   <h1>{name}</h1>
-                  <p className="project-page--title__desc">{description}</p>
+                  <p className="project-page--title__desc no-break">{description}</p>
                   <div className="tags-list">
                     {tags.map((tag) => (
                       <Tag key={tag} tag={tag} />

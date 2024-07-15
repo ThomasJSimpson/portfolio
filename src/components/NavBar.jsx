@@ -1,23 +1,21 @@
 import NavMenu from "./NavMenu";
-import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const logo = "{ T }";
-  const location = useLocation();
-  const isHomePage = location.pathname === "/";
   const navigate = useNavigate();
+
   const returnToHomePage = () => {
-    console.log("returnToHomePage");
-    return navigate("/");
+    window.scrollTo(0, 0);
+    navigate("/");
   };
+
   return (
     <header className="header">
       <h1 onClick={returnToHomePage}>{logo}</h1>
-
-      <NavMenu type="desktop" isHomePage={isHomePage} />
-      <NavMenu type="mobile" isHomePage={isHomePage} />
-      <NavMenu type="notHome" isHomePage={isHomePage} />
+      <NavMenu type="desktop" />
+      <NavMenu type="mobile" />
+      <NavMenu type="notHome" />
     </header>
   );
 };

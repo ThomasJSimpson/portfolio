@@ -4,16 +4,20 @@ import backIcon from "../assets/icones/back-icon.png";
 import { useState } from "react";
 import { scrollToSectionWithOffset } from "../data/utils.js";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-const NavMenu = ({ type, isHomePage }) => {
+const NavMenu = ({ type }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   const returnToHomePage = () => {
-    return navigate("/");
+    window.scrollTo(0, 0);
+    navigate("/");
   };
   if (isHomePage) {
     if (type === "desktop") {

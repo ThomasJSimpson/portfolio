@@ -461,17 +461,17 @@ main {
 .link-pro {
   display: flex;
   align-items: center;
-  margin-right: 2rem;
   border-radius: 0.5rem;
   background-color: #141414;
   background-color: hsl(0, 0%, 15%);
   padding: 0.7rem 1rem;
-}
-
-.link-pro p {
   color: white;
 }
-.link-pro img {
+.welcome-social .link-pro {
+  margin-right: 2rem;
+}
+
+.welcome-social .link-pro img {
   margin-right: 1rem;
   width: 2.2rem;
   height: auto;
@@ -509,8 +509,27 @@ main {
 }
 
 .contact-social {
+  max-width: 50rem;
   display: flex;
+  width: 70%;
   margin-top: 4rem;
+}
+.contact p {
+  font-size: 1.8rem;
+}
+.contact-social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact-social .link-pro {
+  margin-right: 0;
+}
+
+.contact-social .link-pro img {
+  margin-right: 1rem;
+  width: 2.2rem;
+  height: auto;
 }
 footer {
   margin-bottom: 5rem;
@@ -855,19 +874,21 @@ footer {
     margin-bottom: 10rem;
   }
   .contact h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     margin-bottom: 3rem;
   }
   .contact p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .contact-social {
     flex-wrap: wrap;
-
     justify-content: center;
+    width: 70%;
+    gap: 2rem 2rem;
   }
+
   .contact-social .link-pro {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
   .contact-social .link-pro img {
     font-size: 2.2rem;

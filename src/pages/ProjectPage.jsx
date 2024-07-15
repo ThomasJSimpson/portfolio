@@ -5,7 +5,7 @@ import ProjectType from "../components/ProjectType.jsx";
 import { useParams } from "react-router-dom";
 import LinkProject from "../components/links/LinkProject.jsx";
 const ProjectPage = () => {
-  console.log(projects);
+  // console.log(projects);
   const { projectId } = useParams();
 
   return (

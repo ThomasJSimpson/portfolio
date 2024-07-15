@@ -1,21 +1,14 @@
-/* ----------------------------- */
-/* ==reset */
-/* ----------------------------- */
-
-/* base font-size corresponds to 10px and is adapted to rem unit */
 html {
   font-size: 62.5%;
 }
 
 body {
   font-family: "Century Gothic", helvetica, arial, sans-serif;
-  font-size: 1.4em; /* equiv 14px */
-  line-height: 1.5; /* adapt to your design */
+  font-size: 1.4em;
+  line-height: 1.5;
   box-sizing: border-box;
 }
 
-/* font-sizing for content */
-/* preserve vertical-rythm, thanks to http://soqr.fr/vertical-rhythm/ */
 p,
 ul,
 ol,
@@ -30,76 +23,74 @@ caption,
 details,
 figure,
 hgroup {
-  font-size: 1em; /* equiv 14px */
+  font-size: 1em;
   line-height: 1.5;
   margin: 1.5em 0 0;
 }
 h1,
 .h1-like {
-  font-size: 1.8571em; /* equiv 26px */
+  font-size: 1.8571em;
   font-weight: normal;
   line-height: 1.6154em;
   margin: 0.8077em 0 0 0;
 }
 h2,
 .h2-like {
-  font-size: 1.7143em; /* equiv 24px */
+  font-size: 1.7143em;
   font-weight: normal;
   line-height: 1.75em;
   margin: 0.875em 0 0 0;
 }
 h3,
 .h3-like {
-  font-size: 1.5714em; /* equiv 22px */
+  font-size: 1.5714em;
   font-weight: normal;
   line-height: 1.909em;
   margin: 0.9545em 0 0 0;
 }
 h4,
 .h4-like {
-  font-size: 1.4286em; /* equiv 20px */
+  font-size: 1.4286em;
   font-weight: normal;
   line-height: 1.05em;
   margin: 1.05em 0 0 0;
 }
 h5,
 .h5-like {
-  font-size: 1.2857em; /* equiv 18px */
+  font-size: 1.2857em;
   font-weight: normal;
   line-height: 1.1667em;
   margin: 1.1667em 0 0 0;
 }
 h6,
 .h6-like {
-  font-size: 1.1429em; /* equiv 16px */
+  font-size: 1.1429em;
   font-weight: normal;
   line-height: 1.3125em;
   margin: 1.3125em 0 0 0;
 }
 
-/* alternate font-sizing */
 .smaller {
-  font-size: 0.7143em; /* equiv 10px */
+  font-size: 0.7143em;
   line-height: 2.1em;
 }
 .small {
-  font-size: 0.8571em; /* equiv 12px */
+  font-size: 0.8571em;
   line-height: 1.75em;
 }
 .big {
-  font-size: 1.1429em; /* equiv 16px */
+  font-size: 1.1429em;
   line-height: 1.3125em;
 }
 .bigger {
-  font-size: 1.2857em; /* equiv 18px */
+  font-size: 1.2857em;
   line-height: 1.1667em;
 }
 .biggest {
-  font-size: 1.4286em; /* equiv 20px */
+  font-size: 1.4286em;
   line-height: 1.05em;
 }
 
-/* soft reset */
 html,
 body,
 textarea,
@@ -125,7 +116,6 @@ table {
   margin-bottom: 1.5em;
 }
 
-/* avoid top margins on first content element */
 p:first-child,
 ul:first-child,
 ol:first-child,
@@ -141,7 +131,6 @@ h6:first-child {
   margin-top: 0;
 }
 
-/* avoid margins on nested elements */
 li p,
 li ul,
 li ol {
@@ -149,7 +138,6 @@ li ol {
   margin-bottom: 0;
 }
 
-/* HTML5 tags */
 article,
 aside,
 details,
@@ -163,7 +151,6 @@ section {
   display: block;
 }
 
-/* max values */
 img,
 table,
 td,
@@ -176,7 +163,6 @@ video {
   max-width: 100%;
 }
 
-/* you shall not pass */
 div,
 textarea,
 table,
@@ -193,7 +179,6 @@ samp {
   hyphens: auto;
 }
 
-/* pictures */
 img {
   width: auto;
   height: auto;
@@ -203,12 +188,10 @@ a img {
   border: 0;
 }
 
-/* scripts */
 body > script {
   display: none !important;
 }
 
-/* skip-links */
 .skip-links {
   position: absolute;
 }
@@ -289,13 +272,4 @@ table {
 td,
 th {
   padding: 0;
-}
-@media (max-width: 1000) {
-  /* .projects-list {
-    display: flex;
-    flex-direction: column;
-  } */
-  body {
-    background-color: red;
-  }
 }

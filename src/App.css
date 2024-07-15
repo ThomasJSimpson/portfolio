@@ -53,7 +53,8 @@ a:visited {
   justify-content: space-between;
   align-items: center;
   height: 12vh;
-  min-height: 8rem;
+  min-height: 8.5rem;
+  max-height: 12.5rem;
   max-width: 144rem;
   background-color: black;
   padding: 0 5rem 0;
@@ -65,7 +66,8 @@ a:visited {
   animation: anim-header 0.5s ease-in-out;
 }
 .header h1 {
-  font-size: 3.2rem;
+  font-size: 3.8rem;
+  cursor: pointer;
 }
 
 /* nav {
@@ -79,19 +81,30 @@ nav ul {
   display: flex;
   justify-content: space-between;
 } */
-nav {
+
+.menu-desktop {
   width: 30rem;
   font-size: 1.4rem;
   font-weight: 600;
 }
 
-nav ul {
+.menu-desktop ul {
   display: flex;
   justify-content: space-between;
+}
+.menu-mobile {
+  display: none;
+}
+.menu-back img {
+  width: 5rem;
+  height: auto;
+  transform: rotate(180deg);
+  cursor: pointer;
 }
 main {
   padding: 0 3%;
 }
+
 .welcome {
   display: flex;
   flex-direction: column;
@@ -382,7 +395,7 @@ main {
 
   aspect-ratio: 11 / 6;
   overflow: hidden;
-  border-radius: 3rem;
+  border-radius: 1rem;
   margin-bottom: 2rem;
   align-self: center;
 }
@@ -423,7 +436,7 @@ main {
 }
 .links {
   display: flex;
-  margin: 1.7rem 0 1rem;
+  margin: 1.7rem 0 1.7rem;
 }
 .icon {
   width: 2rem;
@@ -467,8 +480,7 @@ main {
   border-left: 0.5rem solid #3ccf91;
   color: white;
 }
-.project-chapter {
-}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -593,6 +605,9 @@ footer {
     margin-top: 2.4rem;
     flex-wrap: wrap;
   }
+  .project-page--title h1 {
+    font-size: 2.8rem;
+  }
 }
 @media (max-width: 819px) {
   .project-card--desc {
@@ -635,6 +650,51 @@ footer {
   } */
 }
 @media (max-width: 799px) {
+  .menu-back img {
+    width: 4rem;
+  }
+  .menu-desktop {
+    display: none;
+  }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-mobile img {
+    width: 3.2rem;
+    height: auto;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .menu-mobile--fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    padding: 3rem 3rem 0 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+  }
+  .menu-mobile--fixed img {
+    width: 2.4rem;
+    height: auto;
+    opacity: 1;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  .menu-mobile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* filter: blur(5px); */
+  }
+  .menu-mobile li {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    /* filter: blur(5px); */
+  }
   .project-card--desc {
     font-size: 80%;
     padding: 3.5%;
@@ -656,14 +716,10 @@ footer {
   }
   .header {
     padding: 0 3rem 0;
+    height: 8.5rem;
   }
   .header h1 {
     font-size: 3rem;
-  }
-  nav {
-    /* width: 48%;
-    font-size: 0.8rem; */
-    display: none;
   }
 
   .welcome {
@@ -729,11 +785,14 @@ footer {
   .tags-list {
     font-size: 1.6rem;
     margin-bottom: 1rem;
-    translate: no;
+    /* translate: no; */
   }
   .tags-list > * {
     margin-right: 0.7rem;
     /* margin-bottom: 1.5rem; */
+  }
+  .project-page--title .tags-list > * {
+    margin-right: 1.5rem;
   }
   .link-pro {
     /* margin-right: 0.8rem; */
@@ -758,6 +817,9 @@ footer {
   .about {
     padding: 5rem 2rem 5rem;
   }
+  .about-descr {
+    font-size: 1.4rem;
+  }
   .about-descr h1 {
     font-size: 2rem;
   }
@@ -770,6 +832,16 @@ footer {
   }
   .project-page--description {
     padding: 0 2rem;
+  }
+  .project-page--title h1 {
+    font-size: 2.2rem;
+  }
+
+  .project-page--description {
+    font-size: 1.4rem;
+  }
+  .project-chapter--title {
+    font-size: 2rem;
   }
 }
 @media (max-width: 639px) {

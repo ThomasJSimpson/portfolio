@@ -24,7 +24,7 @@ const WelcomePage = () => {
         </p>
         <p className="welcome-spec anim-welcome no-break">
           🚀 Spécialisé Front-end ( Javascript / React )
-          <br />⚡ À la recherche d&apos;un contrat en Alternance, en vue d&apos;une formation FullStack chez la WildCodeSchool.
+          <br />⚡ À la recherche d&apos;un contrat en Alternance, en vue d&apos;une formation FullStack chez la grande école STUDI.
         </p>
         <div className="welcome-social anim-welcome--social">
           <LinkPro className="anim-social-1 anim-welcome--social" type="github" />

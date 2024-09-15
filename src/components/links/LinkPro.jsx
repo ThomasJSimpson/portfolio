@@ -8,7 +8,7 @@ const LinkPro = ({ type, className }) => {
   const linkedinProfil = "https://www.linkedin.com/in/thomas-berenger-mtp/";
   const gitHubProfil = "https://github.com/ThomasJSimpson";
   const mailPrivate = "berenger.thomas@gmail.com";
-  const resumeDrive = "https://drive.google.com/file/d/1rGj6IImAz5KWKPPJoTw4h89QS2_juWPK/view?usp=sharing";
+  const resumeDrive = "https://drive.google.com/file/d/1xzPMTobFAVo3D1VwbVXba9yxXwRiKF3C/view?usp=sharing";
 
   let icon, link, text;
 

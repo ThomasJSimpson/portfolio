@@ -23,7 +23,7 @@ const About = () => {
           🌟 Mon objectif à long terme est de <span className="strong-green">devenir un développeur Full-stack compétent</span>, capable de mener à bien des projets aussi bien en front-end qu&apos;en back-end. Cette polyvalence est essentielle pour moi, car elle me permettra de donner vie à mes idées 💡 et de réaliser mes projets personnels de manière autonome.
         </p>
         <p>
-          🤝 En plus de mes compétences techniques, je possède un solide <span className="strong-green">esprit d&apos;équipe</span>, nourri par des valeurs de <span className="strong-green">respect, d&apos;empathie et de collaboration</span>. J&apos;aime apporter mon aide à ceux qui en ont besoin, et je crois fermement en l&apos;importance d&apos;une bonne dynamique collective dans la réussite
+          🤝 En plus de mes compétences techniques, je possède un solide <span className="strong-green">esprit d&apos;équipe</span>, nourri par <span className="strong-green">des valeurs de respect, d&apos;empathie et de collaboration</span>. J&apos;aime apporter mon aide à ceux qui en ont besoin, et je crois fermement en l&apos;importance d&apos;une bonne dynamique collective dans la réussite
           d&apos;un projet.
         </p>
         <p>

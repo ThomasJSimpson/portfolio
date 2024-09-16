@@ -5,27 +5,29 @@ const About = () => {
     <section className="about" id="about">
       <div className="about-descr">
         <h1>⚡ À propos de moi</h1>
+        <p>💻 Développeur Front-end & Apprenti Full-stack en recherche d&apos;une entreprise pour une alternance | Passionné par les technologies et le développement logiciel 🚀</p>
         <p>
-          Je suis l&rsquo;heureux détenteur d&rsquo;un <span className="strong-green">diplôme RNCP de niveau 6 de &ldquo;Développeur d&rsquo;applications Front-end Javascript/React&rdquo;</span> depuis février 2024. Depuis l&apos;obtention de mon diplôme, je me plonge dans la littérature technique des différentes technologies que j&apos;ai pu découvrir, dans le but de consolider mes compétences
-          acquises tout au long de ma formation.
+          🎓 Depuis février 2024, je suis titulaire d&apos;un <span className="strong-green">diplôme RNCP de niveau 6 en &quot;Développeur d&apos;applications Front-end JavaScript/React&quot;</span>. Depuis l&apos;obtention de ce diplôme, je me consacre à l&apos;approfondissement de mes connaissances en explorant les technologies découvertes durant ma formation, afin de consolider et renforcer mes
+          compétences.
+        </p>
+
+        <p>
+          📚 Récemment, j&apos;ai eu l&apos;opportunité d&apos;intégrer <span className="strong-green">l&apos;école STUDI pour suivre une formation en alternance en tant que Développeur Full-stack.</span> Cette formation débutera prochainement et je suis actuellement <span className="strong-green">à la recherche d&apos;une entreprise 🏢 pour un contrat d&apos;apprentissage</span>. Mon objectif est
+          de développer des compétences solides en back-end tout en mettant mes compétences front-end à contribution.
         </p>
         <p>
-          Récemment, j&apos;ai eu le plaisir d&apos;être accepté à <span className="strong-green">l'école STUDI pour une formation en alternance de Développeur Full-stack</span> en tant qu'apprentit. Cette formation me permettra de compléter mon profil en développant des compétences solides en back-end.
+          💡 Mon parcours en autodidacte m&apos;a permis de mener à bien plusieurs projets, mais j&apos;ai rapidement réalisé l&apos;importance d&apos;une formation en alternance. Ce format me permettra non seulement d&apos;appliquer mes compétences au sein d&apos;une entreprise, mais aussi de bénéficier de{" "}
+          <span className="strong-green">l&apos;accompagnement d&apos;un mentor expérimenté 👨‍🏫, assurant une montée en compétences continue.</span>
         </p>
         <p>
-          Après avoir effectué l&rsquo;ensemble de mes projets professionnels en <span className="strong-green">autodidacte</span>, j’ai pris conscience de l&apos;importance de me diriger vers l'apprentissage en alternance. Cette solution me permettrait de consolider mes compétences, directement immergé au sein d&rsquo;une entreprise, et{" "}
-          <span className="strong-green">sous la supervision d&rsquo;un professionnel chevronné</span> pouvant me fournir un retour constant sur mes réalisations.
+          🌟 Mon objectif à long terme est de <span className="strong-green">devenir un développeur Full-stack compétent</span>, capable de mener à bien des projets aussi bien en front-end qu&apos;en back-end. Cette polyvalence est essentielle pour moi, car elle me permettra de donner vie à mes idées 💡 et de réaliser mes projets personnels de manière autonome.
         </p>
         <p>
-          Mon objectif étant de <span className="strong-green">devenir compétent en développement back-end</span> également, mon choix se dirige naturellement vers un diplôme de développeur web Full-stack. En effet, afin de pouvoir également réaliser mes idées et projets personnels, c&rsquo;est une étape indispensable au parcours d&rsquo;un développeur qui souhaite laisser libre cours à sa
-          créativité.
+          🤝 En plus de mes compétences techniques, je possède un solide <span className="strong-green">esprit d&apos;équipe</span>, nourri par des valeurs de <span className="strong-green">respect, d&apos;empathie et de collaboration</span>. J&apos;aime apporter mon aide à ceux qui en ont besoin, et je crois fermement en l&apos;importance d&apos;une bonne dynamique collective dans la réussite
+          d&apos;un projet.
         </p>
         <p>
-          Je pense également posséder les qualités nécessaires pour évoluer en groupe au sein d&rsquo;une entreprise. J&apos;ai toujours eu <span className="strong-green">l&apos;esprit d&apos;équipe</span>, en partie grâce au respect et à une certaine <span className="strong-green">empathie</span> envers autrui, ainsi qu&apos;à <span className="strong-green">mon esprit collaboratif</span>. Je suis
-          également le premier à vouloir <span className="strong-green">aider ceux qui en ont besoin</span>, et ce depuis mes plus anciens souvenirs.
-        </p>
-        <p>
-          J&apos;ai choisi ce domaine qu&rsquo;est le développement car j&apos;ai toujours été <span className="strong-green">attiré par les technologies modernes</span> depuis très jeune et eu une certaine facilité à les utiliser. La perspective de pouvoir concrétiser mes idées ainsi que de pouvoir résoudre des problèmes par la solution logicielle est quelque chose qui me paraît fascinant.
+          📢 Je suis actuellement <span className="strong-green">ouvert à toute opportunité de collaboration en alternance</span> dans le cadre de ma formation, afin de contribuer à la réussite de projets ambitieux tout en continuant à développer mes compétences.
         </p>
       </div>
       <div className="about-portrait">
